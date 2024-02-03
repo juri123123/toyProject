@@ -11,7 +11,13 @@
 		CB5B1A512B6BEB6E009CAE00 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B1A502B6BEB6E009CAE00 /* ContentView.swift */; };
 		CB5B1A532B6BEB6F009CAE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5B1A522B6BEB6F009CAE00 /* Assets.xcassets */; };
 		CB5B1A562B6BEB6F009CAE00 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB5B1A552B6BEB6F009CAE00 /* Preview Assets.xcassets */; };
-		CB5B1A5D2B6BF320009CAE00 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B1A5C2B6BF320009CAE00 /* ButtonView.swift */; };
+		CB5B1A632B6E8883009CAE00 /* VoiceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B1A622B6E8883009CAE00 /* VoiceView.swift */; };
+		CB5B1A652B6E89B9009CAE00 /* TranslateHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B1A642B6E89B9009CAE00 /* TranslateHeader.swift */; };
+		CB5B1A672B6E8BA7009CAE00 /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B1A662B6E8BA7009CAE00 /* BackButton.swift */; };
+		CB5B1A6B2B6E8C26009CAE00 /* TranslateHeader2.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B1A6A2B6E8C26009CAE00 /* TranslateHeader2.swift */; };
+		CB5B1A6F2B6E8E16009CAE00 /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B1A6E2B6E8E16009CAE00 /* ConversationView.swift */; };
+		CB5B1A732B6E8E77009CAE00 /* ConversationSubView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B1A722B6E8E77009CAE00 /* ConversationSubView.swift */; };
+		CB5B1A752B6E9728009CAE00 /* LanguageList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5B1A742B6E9728009CAE00 /* LanguageList.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +26,13 @@
 		CB5B1A502B6BEB6E009CAE00 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CB5B1A522B6BEB6F009CAE00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB5B1A552B6BEB6F009CAE00 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		CB5B1A5C2B6BF320009CAE00 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		CB5B1A622B6E8883009CAE00 /* VoiceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceView.swift; sourceTree = "<group>"; };
+		CB5B1A642B6E89B9009CAE00 /* TranslateHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateHeader.swift; sourceTree = "<group>"; };
+		CB5B1A662B6E8BA7009CAE00 /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		CB5B1A6A2B6E8C26009CAE00 /* TranslateHeader2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateHeader2.swift; sourceTree = "<group>"; };
+		CB5B1A6E2B6E8E16009CAE00 /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		CB5B1A722B6E8E77009CAE00 /* ConversationSubView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationSubView.swift; sourceTree = "<group>"; };
+		CB5B1A742B6E9728009CAE00 /* LanguageList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,11 +65,12 @@
 		CB5B1A4D2B6BEB6E009CAE00 /* Papago2 */ = {
 			isa = PBXGroup;
 			children = (
+				CB5B1A762B6EA1D2009CAE00 /* View */,
+				CB5B1A692B6E8C11009CAE00 /* Common */,
 				CB5B1A4E2B6BEB6E009CAE00 /* Papago2App.swift */,
 				CB5B1A502B6BEB6E009CAE00 /* ContentView.swift */,
 				CB5B1A522B6BEB6F009CAE00 /* Assets.xcassets */,
 				CB5B1A542B6BEB6F009CAE00 /* Preview Content */,
-				CB5B1A5C2B6BF320009CAE00 /* ButtonView.swift */,
 			);
 			path = Papago2;
 			sourceTree = "<group>";
@@ -68,6 +81,27 @@
 				CB5B1A552B6BEB6F009CAE00 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CB5B1A692B6E8C11009CAE00 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B1A742B6E9728009CAE00 /* LanguageList.swift */,
+				CB5B1A642B6E89B9009CAE00 /* TranslateHeader.swift */,
+				CB5B1A662B6E8BA7009CAE00 /* BackButton.swift */,
+				CB5B1A6A2B6E8C26009CAE00 /* TranslateHeader2.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		CB5B1A762B6EA1D2009CAE00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CB5B1A622B6E8883009CAE00 /* VoiceView.swift */,
+				CB5B1A6E2B6E8E16009CAE00 /* ConversationView.swift */,
+				CB5B1A722B6E8E77009CAE00 /* ConversationSubView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,8 +175,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB5B1A512B6BEB6E009CAE00 /* ContentView.swift in Sources */,
+				CB5B1A752B6E9728009CAE00 /* LanguageList.swift in Sources */,
+				CB5B1A6F2B6E8E16009CAE00 /* ConversationView.swift in Sources */,
 				CB5B1A4F2B6BEB6E009CAE00 /* Papago2App.swift in Sources */,
-				CB5B1A5D2B6BF320009CAE00 /* ButtonView.swift in Sources */,
+				CB5B1A672B6E8BA7009CAE00 /* BackButton.swift in Sources */,
+				CB5B1A732B6E8E77009CAE00 /* ConversationSubView.swift in Sources */,
+				CB5B1A652B6E89B9009CAE00 /* TranslateHeader.swift in Sources */,
+				CB5B1A6B2B6E8C26009CAE00 /* TranslateHeader2.swift in Sources */,
+				CB5B1A632B6E8883009CAE00 /* VoiceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
